@@ -1,0 +1,102 @@
+.mycart {
+    width: 2.3em;
+    margin-bottom: 1.2em;
+    margin-left: .5em;
+    border: grey solid 1px;
+    border-radius: 5px;
+}
+
+body{
+    background-color: #1F0F53;
+    color: white;
+}
+
+.logo
+{
+    max-height: 150px;
+}
+
+.carousel-item{
+    max-height: 330px;
+   
+}
+
+.search {
+    width: 50em;
+    height: 2em;
+    justify-content: center;
+}
+
+.search2 {
+    width: 5em;
+    height: 2em;
+}
+
+.card-bottles {
+    width: 10em;
+    /* height: 25em; */
+}
+
+.description-card {
+    font-size: 12px;
+}
+
+.mostreviewed-img {
+    max-width: 3em;
+}
+
+.input-news {
+    width: 9em;
+    height: 1.5em;
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1200px) {
+    .card-bottles {
+        min-width: 16em;
+        min-height: 31em;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    /* .card-bottles {
+        width: 13em;
+        height: 28em;
+    } */
+}
+
+@media only screen and (max-width: 768px) {
+    .xsQuick {
+        margin-bottom: 2em;
+    }
+    .xsMostReviwed{
+        margin-left: 1em;
+    }
+    .xsBottles{
+        margin-left: 1em;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .card-bottles {
+        width: 20em;
+        height: 35em;
+        margin: 0 7em;
+    }
+    .xsQuick {
+        margin-bottom: 2em;
+    }
+    .xsMostReviwed{
+        margin-left: 1em;
+    }
+}
+
+.fs-6.fw-bold {
+    color: black;
+}
+
+.fs-6.text-wrap.fw-light {
+    color: black;
+}
